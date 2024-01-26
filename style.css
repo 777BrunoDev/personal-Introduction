@@ -1,21 +1,18 @@
-*body {
+*        body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 header {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 20px;
     text-align: center;
-    font-family: 'Pacifico', cursive; /* Definindo a fonte chamativa para o header */
-    margin: 0;
-
+    padding: 100px 0; /* Aumenta o preenchimento para dar destaque à header */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente para destacar o conteúdo do header */
 }
+
 h1 {
     text-align: center;
     color: #333;
