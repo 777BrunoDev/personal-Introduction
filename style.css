@@ -12,8 +12,18 @@ header {
     text-align: center;
     font-family: 'Pacifico', cursive; /* Definindo a fonte chamativa para o header */
 }
-
-h1, h3 {
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    color: #fff;
+    padding: 50px;
+    margin: 0;
+    background-image: url('caminho/para/sua-imagem.jpg'); /* Substitua com o caminho real da sua imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir completamente o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    }
+h3 {
     font-family: 'Roboto', sans-serif;
     color: #333;
 }
