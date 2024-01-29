@@ -5,19 +5,23 @@
     line-height: 1.6;
     }
 header {
-    background-color: #4CAF50;
+    background: #4caf50;
     color: #fff;
     padding: 20px;
     text-align: center;
     font-family: 'Pacifico', cursive; /* Definindo a fonte chamativa para o header */
     }
-
+.header{
+    font-size: 1.3em;
+    color: #333;
+    font-weight: bold;
+}
 
 h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #333;
-    color: #fff;
+    color: #000000;
     padding: 10px;
     margin: 0;
     }
@@ -28,11 +32,13 @@ h3 {
 
 section {
     font-family: 'Roboto', sans-serif;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 350px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
 }
 
 h2 {
@@ -43,8 +49,20 @@ h2 {
     margin-bottom: 20px;
 }
 
+
+
 p {
     font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+
+.txtvideo{
+    padding-top: 10px;
+
+}
+
+.apresentacao{
+    padding-bottom: 10px;
 }
 .work {
     font-family: 'Roboto', sans-serif;
@@ -58,10 +76,13 @@ p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
+
+
 a {
     font-family: 'Roboto', sans-serif;
     color: #4CAF50;
     text-decoration: none;
+   
 }
 
 a:hover {
@@ -74,4 +95,115 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+.whoIam{
+    margin-left: 10px;
+    
+
+}
+.imagem-container{
+    text-align: center;
+}
+.comoPosso{
+    display: block;
+    margin: auto;
+}
+
+.glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #4caf50;
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size: 83px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 5px;
+    z-index: 1;
+ }
+ 
+ .glitch:before,
+ .glitch:after {
+    display: block;
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+ }
+ 
+ .glitch:before {
+    animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #0ff;
+    z-index: -1;
+ }
+ 
+ .glitch:after {
+    animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #13ff00;
+    z-index: -2;
+ }
+ #pres{
+    margin-left: 10px;
+    margin-left: 10px;
+ }
+
+ /*lado direito*/
+ .content {
+    margin-right: 250px; /* Largura da caixa de contato */
+    padding: 20px;
+}
+
+.contact-box {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 280px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    transform: translateY(-50%);
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-box h2 {
+    margin-top: 0;
+}
+ 
+ @keyframes glitch-color {
+    0% {
+       transform: translate(0);
+    }
+ 
+    20% {
+       transform: translate(-3px, 3px);
+    }
+ 
+    40% {
+       transform: translate(-3px, -3px);
+    }
+ 
+    60% {
+       transform: translate(3px, 3px);
+    }
+ 
+    80% {
+       transform: translate(3px, -3px);
+    }
+ 
+    to {
+       transform: translate(0);
+    }
+ }
 
