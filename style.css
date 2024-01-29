@@ -80,7 +80,31 @@ p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
+iframe{
+    padding: 20px;
+}
+.button-container {
+    text-align: center;
+}
+.back a{
+    color: #fff;
+    background-color: #4caf50; /* Cor de fundo do botão */
+    padding: 10px 20px; /* Espaçamento interno para melhor aparência */
+    border-radius: 5px; /* Borda arredondada */
+    text-decoration: none; /* Remover sublinhado padrão */
+    display: inline-block; /* Permite ajustar a largura e altura */
+    border-bottom: 2px solid #000000;
+    transition: background-color 0.3s; /* Adicionando uma transição suave */
+}
 
+.redirect{
+    font-size: 20px;
+    text-align: justify;
+    background: #4caf50;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
 
 a {
     font-family: 'Roboto', sans-serif;
@@ -115,9 +139,9 @@ footer {
 #pres{
     margin-left: 10px;
     margin-left: 10px;
+    font-size: 20px;
  }
 
- 
 /*contato*/
 .content {
     margin-right: 250px;
@@ -138,6 +162,7 @@ footer {
     margin-top: 10px;
     text-decoration: none;
     color: #333;
+    font-size: 18px;
 }
 
 .contact-box h2 {
