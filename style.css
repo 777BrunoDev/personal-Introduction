@@ -153,13 +153,29 @@ footer {
     .contact-box {
         position: static; /* ou relativo, dependendo do layout desejado */
         width: auto;
-        margin-top: 35%;
+        margin-top: 30%;
         box-shadow: none;
         border-left: none;
         text-align: center;
         background-color: transparent; /* Fundo transparente para visualizar elementos subjacentes */
         z-index: -1; /* Colocar a contact-box abaixo dos elementos da section */
     }
+}
+/* videoyoutube */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 (altura/largura) */
+    padding-top: 30px; /* Adiciona espaço acima do iframe, se necessário */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /* Header */
 .glitch-wrapper {
