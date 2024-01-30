@@ -129,9 +129,16 @@ footer {
     
 
 }
-.imagem-container{
+.imagem-container {
+    max-width: 100%;
+    margin: 0 auto;
     text-align: center;
 }
+.imagem-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 .comoPosso{
     display: block;
     margin: auto;
