@@ -3,6 +3,7 @@
 <head>
     <!-- Link para o arquivo icones -->
     <script src="https://kit.fontawesome.com/47474e9e51.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruno de Oliveira - Portfólio</title>
@@ -35,28 +36,36 @@
     </section><br><br>
     
      
-    <section>   
-        <div class="work">
-            <h3 >Apresentação:</h3>
-            <a id="pres" href="geo.html"> Projetos de Georreferenciamente de imoveis Rurais</a>
+    <section id="apresentacao" onclick="toggleSection('apresentacao')">
+        <h2>Apresentação</h2>
+    </section>
+    <div class="custom-box work" id="apresentacaoContent">
+            <h3 id="pres">Como eu posso contribuir em seus<a  href="geo.html">Projetos de Georreferenciamento de imóveis Rurais</a></h3>
+           
             <p class="txtvideo">Abaixo explore um vídeo cuidadosamente editado por mim, proporcionando uma jornada pelos bastidores do processo de criação de projetos. Este material visual não apenas destaca minha habilidade em edição, mas também oferece uma experiência para que você possa vivenciar a dedicação que envolvem cada etapa do meu trabalho. Pressione o play e embarque nesta experiência. Se o player não tiver funcionando <a href="https://youtu.be/HiNd3tHMurI">clique aqui</a>.</p>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HiNd3tHMurI" frameborder="0" allowfullscreen></iframe>
-        </div><br>
-    </section> <br><br>
-         
-    <section> 
-        <div class="work">
-            <h3>Portfólio:</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HiNd3tHMurI" frameborder="0" allowfullscreen></iframe>
+            </div>
+    </div>
+    
+
+        <section id="portfolio" onclick="toggleSection('portfolio')">
+            <h2>Portfólio</h2>
+        </section>
+        <div class="custom-box work" id="portfolioContent">
+            <h3>Explorando meus projetos ja realizados</h3>
             <p>Apresento o exemplar representativo de um projeto já executado com sucesso. Esta demonstração concreta não apenas ilustra minha competência e experiência, mas também serve como evidência tangível da qualidade que posso oferecer aos seus projetos. Estou à disposição para discutir como podemos aplicar esses padrões de excelência ao seu próximo desafio. Vamos criar juntos algo extraordinário.</p>
             <a id="pres" href="memorial.html">Memorial</a><br>
             <a id="pres" href="planta.html">Planta</a><br>
-            <a id="pres" href="sobreposicao.html">Sobreposição</a>
+            <a id="pres" href="sobreposicao.html">Sobreposição</a><br>
+
+            <p><i> Os arquivos estão disponíveis em formato PDF. Se estiver acessando de um dispositivo móvel, será necessário fazer o download para visualização.</i></p>
         </div>
+    
 
-        <!-- Adicione mais trabalhos conforme necessário -->
+            <!-- Adicione mais trabalhos conforme necessário -->
 
-    </section>
+     
 
    
     <!-- Caixa de contato -->
@@ -70,6 +79,9 @@
         </a><br><br>
         <a href="https://www.linkedin.com/in/bruno-oliveira-209352218/" target="_blank">
             <i class="fab fa-linkedin"></i> LinkedIn
+        </a><br><br>
+        <a href="https://www.github.com/777BrunoDev" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
         </a>
    
     </div>
