@@ -231,7 +231,7 @@ footer {
     .contact-box {
         position: static; /* ou relativo, dependendo do layout desejado */
         width: auto;
-        margin-top: 30%;
+        margin-top: 40%;
         box-shadow: none;
         border-left: none;
         text-align: center;
