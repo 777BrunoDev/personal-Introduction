@@ -1,167 +1,9 @@
-*body {
-    font-family: 'Arial', sans-serif;
-    background-color: #4CAF50;
-    color: #333;
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    }
-
-header {
-    background: #4caf50;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Pacifico', cursive; /* Definindo a fonte chamativa para o header */
-    }
-.header{
-    font-size: 1.3em;
-    color: #333;
-    font-weight: bold;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: #333;
-    color: #000000;
-    padding: 10px;
-    margin: 0;
-    }
-h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-}
-
-
-section {
-    font-family: 'Roboto', sans-serif;
-    margin-left: 20px;
-    margin-right: 350px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(40, 207, 48, 0.1);
-    text-align: justify;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-    border-bottom: 2px solid #4CAF50; /* Linha de separação abaixo do título */
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-
-
-p {
-    font-family: 'Roboto', sans-serif;
-    margin-left: 10px;
-}
-
-.txtvideo{
-    padding-top: 5px;
-
-}
-
-.apresentacao{
-    padding-bottom: 10px;
-}
-.work {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 30px;
-}
-
-.work img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Borda arredondada para as imagens */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
-iframe{
-    padding: 20px;
-}
-.button-container {
-    text-align: center;
-}
-.back a{
-    color: #fff;
-    background-color: #4caf50; /* Cor de fundo do botão */
-    padding: 10px 20px; /* Espaçamento interno para melhor aparência */
-    border-radius: 5px; /* Borda arredondada */
-    text-decoration: none; /* Remover sublinhado padrão */
-    display: inline-block; /* Permite ajustar a largura e altura */
-    border-bottom: 2px solid #000000;
-    transition: background-color 0.3s; /* Adicionando uma transição suave */
-}
-
-.redirect{
-    font-size: 20px;
-    text-align: justify;
-    background: #4caf50;
-    color: #fff;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
-    font-family: 'Roboto', sans-serif;
-    color: #4CAF50;
-    text-decoration: none;
-   
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-}
-
-.whoIam{
-    margin-left: 10px;
-    
-
-}
-.imagem-container {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-.imagem-container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-.comoPosso{
-    display: block;
-    margin: auto;
-}
-#pres{
-    margin-left: 10px;
-    margin-top: 0 auto;
-    font-size: 20px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
- }
-
-/*contato*/
-.content {
-    margin-right: 250px;
-    padding: 20px;
+20px;
 }
 
 .contact-box {
     position: fixed;
-    top: 50%;
+    top: 55%;
     right: 0;
     width: 280px;
     background-color: #f8f8f8;
@@ -185,6 +27,9 @@ footer {
     section {
         margin-right: 20px;
     }
+    .custom-box{
+        margin-right: 20px;
+    }
 
     .contact-box {
         position: static; /* ou relativo, dependendo do layout desejado */
@@ -201,7 +46,6 @@ footer {
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* Proporção 16:9 (altura/largura) */
-    padding-top: 30px; /* Adiciona espaço acima do iframe, se necessário */
     height: 0;
     overflow: hidden;
 }
