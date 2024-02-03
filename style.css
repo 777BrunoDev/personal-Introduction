@@ -246,7 +246,9 @@ footer {
     header{
         padding: 5px;
     }
-    
+    .glitch{
+        font-size: 5px;
+    }
     section {
         margin-right: 20px;
     }
@@ -301,7 +303,7 @@ footer {
 
 .glitch {
     position: relative;
-    font-size: 83px;
+    font-size: 80px;
     font-weight: 700;
     line-height: 1.2;
     color: #fff;
